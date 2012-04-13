@@ -39,7 +39,7 @@ Para ello:
 	./hello
 ```
 
-Devería ver algo similar a los siguiente:
+Debería ver algo similar a los siguiente:
 
 ![terminal](http://www.openframeworks.cc/tutorials/introduction/images/HelloWorld.png)
 
