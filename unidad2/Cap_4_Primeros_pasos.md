@@ -218,10 +218,10 @@ En el el testApp.cpp tan sólo debe escribirse:
 
 ## 4to paso: aplicarle cierta física
 
-Desde la versión 007 oF cuenta con clases para realizar cálculos vectoriales (de dos, tres o cuatro dimensiones) de forma sencilla. Hechándole una mirada al directorio openFrameworks/libs/openframeworks/math podemos encontrar que también existen clases nativas para realizar calculos de matrices y quaterniones.
+Desde la versión 007 oF cuenta con clases para realizar cálculos vectoriales (de dos, tres o cuatro dimensiones) de forma sencilla. Echándole una mirada al directorio openFrameworks/libs/openframeworks/math podemos encontrar que también existen clases nativas para realizar calculos de matrices y quaterniones.
 En este paso vamos a hacer uso de esas clases reemplazando los int x e y por un vector de dos dimensiones con valores de punto flotante ( número con coma ) que guarde la posición de nuestro objeto, para eso nos vamos a valer de la clase ofVec2f() definida en ofVec2f.h
 Además agregaremos dos vectores más para calcular la aceleración y la velocidad.
-Así mismo crearemos dos variables más. Una contendrá el tamaño del objeto, mientras que la última será una variable de tipo ofColor() para contener el color del mismo. Este tipo de variables nos permite realizar operaciones de color a la vez que converciones. Vale la pena echarle una mirada a libs/openFrameworks/types/ofColor.h para comprender cómo se las declara y cuántas funciones útiles posee.
+Así mismo crearemos dos variables más. Una contendrá el tamaño del objeto, mientras que la última será una variable de tipo ofColor() para contener el color del mismo. Este tipo de variables nos permite realizar operaciones de color a la vez que conversiones. Vale la pena echarle una mirada a libs/openFrameworks/types/ofColor.h para comprender cómo se las declara y cuántas funciones útiles posee.
 
 En la rutina de update haremos que la aceleración actualice la velocidad. La cual dependerá de la resistencia o densidad del espacio, la cual moverá la posición del objeto. 
 
