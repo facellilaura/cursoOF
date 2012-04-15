@@ -69,6 +69,7 @@ Esto puede cambiarse con el método ofSetRectMode( OF_RECTMODE_CENTER ) / ofSetR
 Si quisiéramos volver este código más prolijo podríamos actualizar la posición de la figura en el update() y dibujar la figura en el draw(). Para poder preservar esa información necesitaríamos agregar una variable global a toda la clase del testApp.
 
 En el testApp.h:
+
 ~~~~{.cpp}
 	#pragma once
 	#include "ofMain.h"
