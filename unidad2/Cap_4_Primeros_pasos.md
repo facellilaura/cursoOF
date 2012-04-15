@@ -302,7 +302,7 @@ Mientras que en el testApp.cpp ahora actualizamos la posición de la siguiente m
 Al compilar podemos ver como la pelota es atraída por el cursor. Sin embargo esto dista mucho a comportarse como una pelota.
 ## 5to paso: un poco de onda
 
-Como parte de algunas funciones matemáticas incorporadas al framework podemos agregarle valores random para hacer las cosas un poco más interesante. Para esto a la hora de inicializar utilizaremos la clase ofRandom de dos maneras. Un con un sólo parámetro explicitando el máximo y otra por medio de dos especificando el mínimo y máximo de los valores random que devuelva.
+Como parte de algunas funciones matemáticas incorporadas al framework podemos agregarle valores random para hacer las cosas un poco más interesante. Para esto a la hora de inicializar utilizaremos la clase ofRandom de dos maneras. Una con un sólo parámetro explicitando el máximo y otra por medio de dos especificando el mínimo y máximo de los valores random que devuelva.
 Para este ejemplo le agregaremos una función más a nuestra clase Pelota para saber cuando ha salido de la pantalla de tal forma que podamos volverla a crear. También dejaremos que las pelotas caigan por gravedad.
 
 Pelota.h:
